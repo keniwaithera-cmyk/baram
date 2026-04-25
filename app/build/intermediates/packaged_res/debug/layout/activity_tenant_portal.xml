@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/primary_green"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🏠"
+                android:textSize="36sp"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tenant Portal"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check your rent info &amp; payment history"
+                android:textSize="13sp"
+                android:textColor="@color/white"
+                android:alpha="0.85"/>
+        </LinearLayout>
+
+        <!-- Search card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="3dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Your Phone Number (e.g. 0712345678)"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_marginBottom="12dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:maxLines="1"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btnSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:text="🔍 Find My Details"
+                    style="@style/ButtonPrimary"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tenant info (hidden until found) -->
+        <LinearLayout
+            android:id="@+id/layoutTenantInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <!-- Tenant info card -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="3dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Your Details"
+                        android:textSize="16sp" android:textStyle="bold"
+                        android:textColor="@color/primary_green"
+                        android:layout_marginBottom="12dp"/>
+
+                    <TextView android:id="@+id/tvTenantName"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="18sp" android:textStyle="bold"
+                        android:textColor="@color/text_primary"
+                        android:layout_marginBottom="6dp"/>
+
+                    <TextView android:id="@+id/tvHouseNumber"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="15sp" android:textColor="@color/text_primary"
+                        android:layout_marginBottom="4dp"/>
+
+                    <TextView android:id="@+id/tvRentDue"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="18sp" android:textStyle="bold"
+                        android:textColor="@color/primary_green"
+                        android:layout_marginBottom="12dp"/>
+
+                    <View android:layout_width="match_parent" android:layout_height="1dp"
+                        android:background="@color/gray_light" android:layout_marginBottom="12dp"/>
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Payment Options"
+                        android:textSize="14sp" android:textStyle="bold"
+                        android:textColor="@color/text_secondary"
+                        android:layout_marginBottom="6dp"/>
+
+                    <TextView android:id="@+id/tvLandlordMpesa"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="14sp" android:textColor="@color/text_primary"
+                        android:layout_marginBottom="4dp"/>
+
+                    <TextView android:id="@+id/tvPaybill"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="14sp" android:textColor="@color/text_primary"
+                        android:layout_marginBottom="4dp"/>
+
+                    <TextView android:id="@+id/tvAccount"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="14sp" android:textColor="@color/text_primary"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Payment history -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment History"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tvNoHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No payment records found."
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"
+                android:visibility="gone"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerPayments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

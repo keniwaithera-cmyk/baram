@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.barakaplaza.rentmanager">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BarakaPlaza"
+        android:usesCleartextTraffic="false">
+
+        <!-- Splash -->
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:noHistory="true"
+            android:theme="@style/Theme.BarakaPlaza.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.LoginActivity"
+            android:exported="false" />
+        <activity android:name=".activities.LandlordDashboardActivity"
+            android:exported="false" />
+        <activity android:name=".activities.TenantRegistrationActivity"
+            android:exported="false" />
+        <activity android:name=".activities.TenantListActivity"
+            android:exported="false" />
+        <activity android:name=".activities.PaymentActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".activities.PaymentHistoryActivity"
+            android:exported="false" />
+        <activity android:name=".activities.ReceiptViewActivity"
+            android:exported="false" />
+        <activity android:name=".activities.HouseManagementActivity"
+            android:exported="false" />
+        <activity android:name=".activities.TenantPortalActivity"
+            android:exported="false" />
+
+        <!-- SMS receiver – listens for M-Pesa confirmations -->
+        <receiver
+            android:name=".utils.SmsReceiver"
+            android:exported="true"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Alarm receiver – monthly rent reminders -->
+        <receiver
+            android:name=".utils.ReminderReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.barakaplaza.SEND_REMINDER" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>

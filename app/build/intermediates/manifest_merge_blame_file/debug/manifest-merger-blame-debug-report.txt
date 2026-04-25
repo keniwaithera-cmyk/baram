@@ -1,0 +1,261 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.barakaplaza.rentmanager"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.SEND_SMS" />
+12-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:6:5-67
+12-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+13-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:7:5-70
+13-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:7:22-67
+14    <uses-permission android:name="android.permission.READ_SMS" />
+14-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:8:5-67
+14-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:9:5-67
+15-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:10:5-79
+16-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:11:5-81
+17-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+18-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:12:5-79
+18-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:12:22-76
+19    <uses-permission
+19-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:13:5-14:38
+20        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+20-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:13:22-78
+21        android:maxSdkVersion="28" />
+21-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:14:9-35
+22    <uses-permission
+22-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:15:5-16:38
+23        android:name="android.permission.READ_EXTERNAL_STORAGE"
+23-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:15:22-77
+24        android:maxSdkVersion="32" />
+24-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:16:9-35
+25
+26    <permission
+26-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-4/bc3a452c90d3a8a2562047e55929ebc8/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+27        android:name="com.barakaplaza.rentmanager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-4/bc3a452c90d3a8a2562047e55929ebc8/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-4/bc3a452c90d3a8a2562047e55929ebc8/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.barakaplaza.rentmanager.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-4/bc3a452c90d3a8a2562047e55929ebc8/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-4/bc3a452c90d3a8a2562047e55929ebc8/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:18:5-79:19
+33        android:allowBackup="true"
+33-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:19:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.9.0] /home/emobilis/.gradle/caches/transforms-4/bc3a452c90d3a8a2562047e55929ebc8/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:icon="@mipmap/ic_launcher"
+37-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:20:9-43
+38        android:label="@string/app_name"
+38-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:21:9-41
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:22:9-54
+40        android:supportsRtl="true"
+40-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:23:9-35
+41        android:testOnly="true"
+42        android:theme="@style/Theme.BarakaPlaza"
+42-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:24:9-49
+43        android:usesCleartextTraffic="false" >
+43-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:25:9-45
+44
+45        <!-- Splash -->
+46        <activity
+46-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:28:9-37:20
+47            android:name="com.barakaplaza.rentmanager.activities.SplashActivity"
+47-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:29:13-54
+48            android:exported="true"
+48-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:30:13-36
+49            android:noHistory="true"
+49-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:31:13-37
+50            android:theme="@style/Theme.BarakaPlaza.Splash" >
+50-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:32:13-60
+51            <intent-filter>
+51-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:33:13-36:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:34:17-69
+52-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:34:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:35:17-77
+54-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:35:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:39:9-40:40
+58            android:name="com.barakaplaza.rentmanager.activities.LoginActivity"
+58-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:39:19-59
+59            android:exported="false" />
+59-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:40:13-37
+60        <activity
+60-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:41:9-42:40
+61            android:name="com.barakaplaza.rentmanager.activities.LandlordDashboardActivity"
+61-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:41:19-71
+62            android:exported="false" />
+62-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:42:13-37
+63        <activity
+63-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:43:9-44:40
+64            android:name="com.barakaplaza.rentmanager.activities.TenantRegistrationActivity"
+64-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:43:19-72
+65            android:exported="false" />
+65-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:44:13-37
+66        <activity
+66-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:45:9-46:40
+67            android:name="com.barakaplaza.rentmanager.activities.TenantListActivity"
+67-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:45:19-64
+68            android:exported="false" />
+68-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:46:13-37
+69        <activity
+69-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:47:9-49:58
+70            android:name="com.barakaplaza.rentmanager.activities.PaymentActivity"
+70-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:47:19-61
+71            android:exported="false"
+71-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:48:13-37
+72            android:windowSoftInputMode="adjustResize" />
+72-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:49:13-55
+73        <activity
+73-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:50:9-51:40
+74            android:name="com.barakaplaza.rentmanager.activities.PaymentHistoryActivity"
+74-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:50:19-68
+75            android:exported="false" />
+75-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:51:13-37
+76        <activity
+76-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:52:9-53:40
+77            android:name="com.barakaplaza.rentmanager.activities.ReceiptViewActivity"
+77-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:52:19-65
+78            android:exported="false" />
+78-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:53:13-37
+79        <activity
+79-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:54:9-55:40
+80            android:name="com.barakaplaza.rentmanager.activities.HouseManagementActivity"
+80-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:54:19-69
+81            android:exported="false" />
+81-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:55:13-37
+82        <activity
+82-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:56:9-57:40
+83            android:name="com.barakaplaza.rentmanager.activities.TenantPortalActivity"
+83-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:56:19-66
+84            android:exported="false" />
+84-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:57:13-37
+85
+86        <!-- SMS receiver – listens for M-Pesa confirmations -->
+87        <receiver
+87-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:60:9-67:20
+88            android:name="com.barakaplaza.rentmanager.utils.SmsReceiver"
+88-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:61:13-46
+89            android:exported="true"
+89-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:62:13-36
+90            android:permission="android.permission.BROADCAST_SMS" >
+90-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:63:13-66
+91            <intent-filter android:priority="999" >
+91-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:64:13-66:29
+91-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:64:28-50
+92                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+92-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:65:17-82
+92-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:65:25-79
+93            </intent-filter>
+94        </receiver>
+95
+96        <!-- Alarm receiver – monthly rent reminders -->
+97        <receiver
+97-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:70:9-77:20
+98            android:name="com.barakaplaza.rentmanager.utils.ReminderReceiver"
+98-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:71:13-51
+99            android:exported="true" >
+99-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:72:13-36
+100            <intent-filter>
+100-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:73:13-76:29
+101                <action android:name="com.barakaplaza.SEND_REMINDER" />
+101-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:74:17-72
+101-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:74:25-69
+102                <action android:name="android.intent.action.BOOT_COMPLETED" />
+102-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:75:17-79
+102-->/home/emobilis/undraw/BARAKA-SYSTEM-WITH-MPESA/app/src/main/AndroidManifest.xml:75:25-76
+103            </intent-filter>
+104        </receiver>
+105
+106        <provider
+106-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-4/2cc3b7012a03589880f07410b2babe23/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+107            android:name="androidx.startup.InitializationProvider"
+107-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-4/2cc3b7012a03589880f07410b2babe23/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+108            android:authorities="com.barakaplaza.rentmanager.androidx-startup"
+108-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-4/2cc3b7012a03589880f07410b2babe23/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+109            android:exported="false" >
+109-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-4/2cc3b7012a03589880f07410b2babe23/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+110            <meta-data
+110-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-4/2cc3b7012a03589880f07410b2babe23/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+111-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-4/2cc3b7012a03589880f07410b2babe23/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+112                android:value="androidx.startup" />
+112-->[androidx.emoji2:emoji2:1.2.0] /home/emobilis/.gradle/caches/transforms-4/2cc3b7012a03589880f07410b2babe23/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+113            <meta-data
+113-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/emobilis/.gradle/caches/transforms-4/b998f0e74aad6a9cace947532575baae/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+114-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/emobilis/.gradle/caches/transforms-4/b998f0e74aad6a9cace947532575baae/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+115                android:value="androidx.startup" />
+115-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/emobilis/.gradle/caches/transforms-4/b998f0e74aad6a9cace947532575baae/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+116            <meta-data
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+117                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+118                android:value="androidx.startup" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+119        </provider>
+120
+121        <receiver
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+122            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+123            android:directBootAware="false"
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+124            android:enabled="true"
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+125            android:exported="true"
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+126            android:permission="android.permission.DUMP" >
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+128                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+129            </intent-filter>
+130            <intent-filter>
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+131                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+132            </intent-filter>
+133            <intent-filter>
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+134                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+135            </intent-filter>
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+137                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/emobilis/.gradle/caches/transforms-4/470fb2f01c8e2f7015742f5005cf10ca/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+138            </intent-filter>
+139        </receiver>
+140    </application>
+141
+142</manifest>

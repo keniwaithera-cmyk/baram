@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_green"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="House Management"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- Stats row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Total: 0"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvVacant"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🟢 Vacant: 0"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/status_active"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvOccupied"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🔴 Occupied: 0"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/status_inactive"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerHouses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:clipToPadding="false"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddHouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/primary_green"
+        app:tint="@color/white"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="Add House"/>
+
+</LinearLayout>

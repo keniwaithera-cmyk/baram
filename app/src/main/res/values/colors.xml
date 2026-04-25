@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_green">#2E7D32</color>
+    <color name="primary_green_light">#4CAF50</color>
+    <color name="primary_green_dark">#1B5E20</color>
+    <color name="accent_gold">#F9A825</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#9E9E9E</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="background">#F0F4F0</color>
+    <color name="status_active">#2E7D32</color>
+    <color name="status_inactive">#C62828</color>
+    <color name="status_pending">#F57F17</color>
+    <color name="house_vacant_bg">#E8F5E9</color>
+    <color name="house_occupied_bg">#FFEBEE</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="mpesa_green">#00A550</color>
+    <color name="stk_blue">#1565C0</color>
+</resources>

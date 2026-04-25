@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register New Tenant"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_green"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Personal Details -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="3dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Personal Details"
+                    android:textSize="16sp" android:textStyle="bold"
+                    android:textColor="@color/primary_green"
+                    android:layout_marginBottom="12dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:hint="Full Name *"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_marginBottom="12dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etFullName"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:inputType="textPersonName" android:maxLines="1"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:hint="Phone Number * (e.g. 0712345678)"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_marginBottom="12dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPhone"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:inputType="phone" android:maxLines="1"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:hint="Email (optional)"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_marginBottom="12dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etEmail"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress" android:maxLines="1"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:hint="National ID Number *"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_marginBottom="12dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etIdNumber"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:inputType="number" android:maxLines="1"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:hint="Emergency Contact (optional)"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etEmergencyContact"
+                        android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:inputType="phone" android:maxLines="1"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- House Selection -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="3dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="House Assignment"
+                    android:textSize="16sp" android:textStyle="bold"
+                    android:textColor="@color/primary_green"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Select Available House"
+                    android:textSize="13sp" android:textColor="@color/text_secondary"
+                    android:layout_marginBottom="4dp"/>
+
+                <Spinner
+                    android:id="@+id/spinnerHouse"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="@drawable/spinner_bg"
+                    android:padding="8dp"
+                    android:layout_marginBottom="12dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="8dp">
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Monthly Rent" android:textSize="12sp" android:textColor="@color/text_secondary"/>
+                        <TextView android:id="@+id/tvRentAmount"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="KSh 0" android:textSize="16sp" android:textStyle="bold"
+                            android:textColor="@color/primary_green"/>
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Type" android:textSize="12sp" android:textColor="@color/text_secondary"/>
+                        <TextView android:id="@+id/tvHouseType"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="-" android:textSize="14sp" android:textColor="@color/text_primary"/>
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Floor" android:textSize="12sp" android:textColor="@color/text_secondary"/>
+                        <TextView android:id="@+id/tvFloor"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="-" android:textSize="14sp" android:textColor="@color/text_primary"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Move-in Date -->
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Move-in Date" android:textSize="13sp" android:textColor="@color/text_secondary"
+                    android:layout_marginBottom="4dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tvMoveInDate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="-"
+                        android:textSize="16sp"
+                        android:textColor="@color/text_primary"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/btnPickDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📅 Pick Date"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="✅ Register Tenant"
+            style="@style/ButtonPrimary"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

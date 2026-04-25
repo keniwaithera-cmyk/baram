@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/layout_activity_tenant_list.xml.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/layout/activity_tenant_list.xml"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/layout_activity_tenant_portal.xml.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/layout/activity_tenant_portal.xml"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/drawable_spinner_bg.xml.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/drawable/spinner_bg.xml"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/layout_activity_landlord_dashboard.xml.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/layout/activity_landlord_dashboard.xml"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/layout_activity_house_management.xml.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/layout/activity_house_management.xml"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/layout_activity_payment_history.xml.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/layout/activity_payment_history.xml"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/layout_activity_splash.xml.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/layout_item_house.xml.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/layout/item_house.xml"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/layout_item_payment.xml.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/layout/item_payment.xml"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/layout_item_tenant.xml.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/layout/item_tenant.xml"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/layout_activity_payment.xml.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/layout_activity_receipt_view.xml.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/layout/activity_receipt_view.xml"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/layout_activity_tenant_registration.xml.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/layout/activity_tenant_registration.xml"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.barakaplaza.rentmanager.app-merged_res-37:/layout_activity_login.xml.flat",
+        "source": "com.barakaplaza.rentmanager.app-main-39:/layout/activity_login.xml"
+    }
+]

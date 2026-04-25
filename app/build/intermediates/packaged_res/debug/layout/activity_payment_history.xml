@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_green"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment History"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- Filters -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="@color/white">
+
+        <Spinner
+            android:id="@+id/spinnerMonth"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerYear"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <!-- Summary -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="2dp">
+
+        <TextView
+            android:id="@+id/tvTotalCollection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Collected: KSh 0"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_green"
+            android:padding="16dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Empty state -->
+    <TextView
+        android:id="@+id/tvNoPayments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No payments found for this period."
+        android:textSize="15sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"
+        android:padding="32dp"
+        android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerPayments"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:clipToPadding="false"/>
+
+</LinearLayout>

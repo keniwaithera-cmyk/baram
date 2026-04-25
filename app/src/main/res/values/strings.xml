@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Baraka Plaza</string>
+    <string name="login_title">Landlord Login</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="register_tenant">Register Tenant</string>
+    <string name="manage_tenants">Manage Tenants</string>
+    <string name="record_payment">Record Payment</string>
+    <string name="payment_history">Payment History</string>
+    <string name="manage_houses">Manage Houses</string>
+    <string name="tenant_portal">Tenant Portal</string>
+    <string name="mpesa_stk_push">M-Pesa STK Push</string>
+    <string name="confirm_payment">Confirm Payment</string>
+    <string name="send_reminder">Send Reminders</string>
+    <string name="logout">Logout</string>
+    <string name="search_tenant">Search tenant by name, house or phone…</string>
+    <string name="select_tenant">Select Tenant</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="mpesa_manual">M-Pesa (Enter Code)</string>
+    <string name="cash">Cash</string>
+    <string name="paybill">Paybill</string>
+    <string name="stk_push">STK Push (Request Payment)</string>
+    <string name="enter_amount">Enter Amount (KSh)</string>
+    <string name="enter_mpesa_code">Enter M-Pesa Transaction Code</string>
+    <string name="notes_optional">Notes (optional)</string>
+    <string name="send_stk_push">📲 Send STK Push to Tenant</string>
+</resources>

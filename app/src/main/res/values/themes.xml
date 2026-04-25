@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.BarakaPlaza" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryVariant">@color/primary_green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent_gold</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_green_dark</item>
+    </style>
+
+    <style name="Theme.BarakaPlaza.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.BarakaPlaza.Splash" parent="Theme.BarakaPlaza.NoActionBar">
+        <item name="android:windowBackground">@color/primary_green</item>
+        <item name="android:statusBarColor">@color/primary_green</item>
+    </style>
+
+    <style name="CardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="ButtonPrimary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="ButtonSecondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary_green</item>
+        <item name="android:textColor">@color/primary_green</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="ButtonMpesa" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/mpesa_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="ButtonStkPush" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/stk_blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+</resources>
